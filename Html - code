@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flipkart</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://kit.fontawesome.com/8f55ad49e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+     <!-- Header -->
+
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 left">
+                    <div class="row">
+                        <div class="logo left">
+                            <a href="#">
+                                <img src="profile.png" style="height: 80px;">
+                             </a>
+                        </div>
+                        <div class="search left" style="display: hidden;" >
+                            <form action="#">
+                                <button type="submit" > 
+                                 <input type="text" style="width: 400px;" placeholder=" Search for products, brands and more ">
+                                </button> 
+                                <i class="fa-solid fa-magnifying-glass fa-sm" style="color: black;" ></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 right">
+                    <ul style="list-style: none;">
+                        <li>
+                            <a href="#"><i class="fa-solid fa-business-time fa-sm" style="padding: 1px;"></i> Become a seller </a>
+                        </li>
+                        <li>
+                            <a href="#"> <button type="button" style="background-color: white;" style="color: black;" style=" margin: 4px 2px;"> Login </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> More <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-cart-shopping fa-sm" style="padding: 5px;"></i>Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 1 products-->
+
+    <div id="section-1">
+        <div class="container">
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="grocery.jpg" alt="">
+                    </div>
+                    <div class="p-desc">  
+                        <p>Grocery</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="mobile.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Mobile</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="fashion.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Fashion</p>
+                        
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="Electronics.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Electronics</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="Home and furniture.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Home & Furniture</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="Appliances.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Appliances</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="Travel.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Travel</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="Beauty, toys &more.jpg">
+                    </div>
+                    <div class="p-desc">
+                        <p>Beauty, Toys & More</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                        <img src="Two wheelers.jpg"> 
+                    </div>
+                    <div class="p-desc">
+                        <p>Two wheelers</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+ <!--Section 2 slidebar-->
+
+<div class="slideshow-container">
+    
+    <div class="mySlides">
+        <img class="ad2" src="ad2.png" alt="First slide">
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   
+</div>
+  
+  
+
+    
+
+ 
